@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12C3D5C62CFAFDC500BAF5FF /* InOutYang_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InOutYang_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C3D5C62CFAFDC500BAF5FF /* INOUTY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INOUTY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C3D5D62CFAFDC700BAF5FF /* InOutYang_betaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InOutYang_betaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C3D5E02CFAFDC700BAF5FF /* InOutYang_betaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InOutYang_betaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		12C3D5C72CFAFDC500BAF5FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12C3D5C62CFAFDC500BAF5FF /* InOutYang_beta.app */,
+				12C3D5C62CFAFDC500BAF5FF /* INOUTY.app */,
 				12C3D5D62CFAFDC700BAF5FF /* InOutYang_betaTests.xctest */,
 				12C3D5E02CFAFDC700BAF5FF /* InOutYang_betaUITests.xctest */,
 			);
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12C3D5C52CFAFDC500BAF5FF /* InOutYang_beta */ = {
+		12C3D5C52CFAFDC500BAF5FF /* INOUTY */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12C3D5EA2CFAFDC700BAF5FF /* Build configuration list for PBXNativeTarget "InOutYang_beta" */;
+			buildConfigurationList = 12C3D5EA2CFAFDC700BAF5FF /* Build configuration list for PBXNativeTarget "INOUTY" */;
 			buildPhases = (
 				12C3D5C22CFAFDC500BAF5FF /* Sources */,
 				12C3D5C32CFAFDC500BAF5FF /* Frameworks */,
@@ -110,11 +110,11 @@
 			fileSystemSynchronizedGroups = (
 				12C3D5C82CFAFDC500BAF5FF /* InOutYang_beta */,
 			);
-			name = InOutYang_beta;
+			name = INOUTY;
 			packageProductDependencies = (
 			);
 			productName = InOutYang_beta;
-			productReference = 12C3D5C62CFAFDC500BAF5FF /* InOutYang_beta.app */;
+			productReference = 12C3D5C62CFAFDC500BAF5FF /* INOUTY.app */;
 			productType = "com.apple.product-type.application";
 		};
 		12C3D5D52CFAFDC700BAF5FF /* InOutYang_betaTests */ = {
@@ -200,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12C3D5C52CFAFDC500BAF5FF /* InOutYang_beta */,
+				12C3D5C52CFAFDC500BAF5FF /* INOUTY */,
 				12C3D5D52CFAFDC700BAF5FF /* InOutYang_betaTests */,
 				12C3D5DF2CFAFDC700BAF5FF /* InOutYang_betaUITests */,
 			);
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		12C3D5D82CFAFDC700BAF5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 12C3D5C52CFAFDC500BAF5FF /* InOutYang_beta */;
+			target = 12C3D5C52CFAFDC500BAF5FF /* INOUTY */;
 			targetProxy = 12C3D5D72CFAFDC700BAF5FF /* PBXContainerItemProxy */;
 		};
 		12C3D5E22CFAFDC700BAF5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 12C3D5C52CFAFDC500BAF5FF /* InOutYang_beta */;
+			target = 12C3D5C52CFAFDC500BAF5FF /* INOUTY */;
 			targetProxy = 12C3D5E12CFAFDC700BAF5FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -393,24 +393,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InOutYang_beta/Preview Content\"";
-				DEVELOPMENT_TEAM = GQ89YG5G9R;
+				DEVELOPMENT_TEAM = DW493U4J68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "InOutYang-beta-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.markrew.InOutYang-beta";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bongchan2.InOutYang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,24 +427,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InOutYang_beta/Preview Content\"";
-				DEVELOPMENT_TEAM = GQ89YG5G9R;
+				DEVELOPMENT_TEAM = DW493U4J68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "InOutYang-beta-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.markrew.InOutYang-beta";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bongchan2.InOutYang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12C3D5EA2CFAFDC700BAF5FF /* Build configuration list for PBXNativeTarget "InOutYang_beta" */ = {
+		12C3D5EA2CFAFDC700BAF5FF /* Build configuration list for PBXNativeTarget "INOUTY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12C3D5EB2CFAFDC700BAF5FF /* Debug */,
